@@ -79,8 +79,8 @@ function callSecondPrompt(player2) {
   }
 }
 
-alert(callFirstPrompt())
-// alert(callFirstPrompt())
+alert(callFirstPrompt()) 
+
 
 alert(callSecondPrompt())
 
@@ -91,6 +91,10 @@ if (player1 === "Rock" && player2 === "Paper" || player1 === "Paper" && player2 
 } else if (player1 === player2) {
   alert("Draw!")
 }
+
+//TASK 6
+
+
 
 
 
