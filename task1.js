@@ -94,6 +94,21 @@ if (player1 === "Rock" && player2 === "Paper" || player1 === "Paper" && player2 
 
 //TASK 6
 
+let num = +prompt("Insert Number")
+let fibnum1 = 0;
+let fibnum2 = 1;
+
+let sum = 0
+
+
+for (let i = 2 ; i<=num ; i++) {
+  sum = fibnum1 + fibnum2
+  fibnum1 = fibnum2
+  fibnum2 = sum
+}
+
+alert(sum)
+
 
 
 
