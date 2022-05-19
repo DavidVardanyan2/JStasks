@@ -131,7 +131,23 @@ while (nextNumber <= chosenNumber) {
 }
 
 
+//TASK 8 ???
 
+//TASK 9
+
+let a = 0
+
+for (let i = 0; i < 10; i++) {
+  let result = a + "" + i
+  console.log(result)
+}
+
+let b = 9
+while (b < 99) {
+  b++
+  let result2 = b
+  console.log(result2 + "")
+}
 
 
 
