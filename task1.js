@@ -149,5 +149,28 @@ while (b < 99) {
   console.log(result2 + "")
 }
 
+//TASK 10 
+
+let number = +prompt("Please enter a number") 
+
+let sum = 0;
+let product = 1;
+
+if (number === 0) {
+  console.log("Cannot Calculate")
+} 
+
+while (number != 0) {
+  sum += number % 10;
+  product *= number % 10;
+  number = Math.floor(number / 10);
+}
+
+if (product % sum === 0) {
+  console.log("Quotient is " + product / sum)
+} else {
+  console.log("Remainder is " + product % sum)
+}
+
 
 
