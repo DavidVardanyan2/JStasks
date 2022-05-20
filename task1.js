@@ -130,9 +130,6 @@ while (nextNumber <= chosenNumber) {
     n2 = nextNumber;
 }
 
-
-//TASK 8 ???
-
 //TASK 9
 
 let a = 0
@@ -151,25 +148,25 @@ while (b < 99) {
 
 //TASK 10 
 
-let number = +prompt("Please enter a number") 
+let newNum = +prompt("Please enter a number") 
 
-let sum = 0;
+let Sum = 0;
 let product = 1;
 
-if (number === 0) {
+if (newNum === 0) {
   console.log("Cannot Calculate")
 } 
 
-while (number != 0) {
-  sum += number % 10;
-  product *= number % 10;
-  number = Math.floor(number / 10);
+while (newNum != 0) {
+  Sum += newNum % 10;
+  product *= newNum % 10;
+  newNum = Math.floor(newNum / 10);
 }
 
-if (product % sum === 0) {
-  console.log("Quotient is " + product / sum)
+if (product % Sum === 0) {
+  console.log("Quotient is " + product / Sum)
 } else {
-  console.log("Remainder is " + product % sum)
+  console.log("Remainder is " + product % Sum)
 }
 
 
