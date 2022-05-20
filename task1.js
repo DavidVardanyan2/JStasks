@@ -13,6 +13,8 @@ function checkNumber(givenNumber,digit) {
 
 console.log(checkNumber(givenNumber, digit))
 
+
+
 //TASK2
 
 let number = prompt("Please enter a number")
@@ -25,6 +27,8 @@ function replace (number) {
 }
 
 alert(replace(number))
+
+
 
 //TASK3
 
@@ -48,6 +52,8 @@ function differenceBetweenNumbers(newNumber) {
 
 alert(differenceBetweenNumbers(newNumber))
 
+
+
 //TASK4 
 
 let primeNumber = +prompt("Please provide a number")
@@ -59,6 +65,8 @@ function prime(primeNumber) {
 }
 
 console.log(prime(primeNumber))
+
+
 
 //TASK5 
 
@@ -92,6 +100,8 @@ if (player1 === "Rock" && player2 === "Paper" || player1 === "Paper" && player2 
   alert("Draw!")
 }
 
+
+
 //TASK 6
 
 let num = +prompt("Insert Number")
@@ -108,6 +118,8 @@ for (let i = 2 ; i<=num ; i++) {
 }
 
 alert(sum)
+
+
 
 //TASK 7
 
@@ -130,6 +142,8 @@ while (nextNumber <= chosenNumber) {
     n2 = nextNumber;
 }
 
+
+
 //TASK 9
 
 let a = 0
@@ -145,6 +159,8 @@ while (b < 99) {
   let result2 = b
   console.log(result2 + "")
 }
+
+
 
 //TASK 10 
 
@@ -168,6 +184,3 @@ if (product % Sum === 0) {
 } else {
   console.log("Remainder is " + product % Sum)
 }
-
-
-
