@@ -32,26 +32,25 @@ alert(replace(number))
 
 //TASK3
 
-let newNumber = +prompt("Please provide a number")
+const newNumber = prompt("Enter a number")
+let str1 = 0
+let str2 = 9
 
-function differenceBetweenNumbers(newNumber) {
-
-  let largest = 0
-  let smallest = 9
-
-  while (newNumber) {
-
-    largest = Math.max(newNumber % 10, largest);
-
-    smallest = Math.min(newNumber % 10, smallest);
-    number = parseInt(newNumber/10)
-
+for (let i = 0 ; i<newNumber.length ; i++) {
+  
+  if (newNumber[i]>str1) {
+    str1 = newNumber[i]
   }
-  console.log(largest - smallest)
 }
 
-alert(differenceBetweenNumbers(newNumber))
+for (let i = 0 ; i<newNumber.length ; i++) {
+  
+  if (newNumber[i]<str2) {
+    str2 = newNumber[i]
+  }
+}
 
+console.log((+str1)-(+str2))
 
 
 //TASK4 
